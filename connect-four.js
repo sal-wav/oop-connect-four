@@ -10,9 +10,20 @@ class Game {
     }
 }
 
+let player1 = document.getElementById("player-1-name");
+let player2 = document.getElementById("player-2-name");
 
-document.getElementById("player-1-name").addEventListener("keyup", (event) => {
-    document.getElementById("new-game").disabled = false;
+class 
+
+player1.addEventListener("keyup", (event) => {
+    if (player1.value && player2.value) {
+        document.getElementById("new-game").disabled = false;
+    }
+});
+player2.addEventListener("keyup", (event) => {
+    if (player1.value && player2.value) {
+        document.getElementById("new-game").disabled = false;
+    }
 });
 
 
