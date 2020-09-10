@@ -1,5 +1,5 @@
 import { Game } from './game.js';
-import { Column } from './columns.js';
+import { Column } from "./columns.js";
 const clickTarget = document.getElementById("click-targets")
 
 let game = undefined;
@@ -75,7 +75,7 @@ document.getElementById("click-targets").addEventListener("click", (event) => {
 
     const columnIndex = Number.parseInt(targetId[targetId.length -1]);
     
-    game.playInColumn();
+    game.playInColumn(columnIndex);
     updateUI();
 })
 

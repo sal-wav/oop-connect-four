@@ -24,8 +24,8 @@ export class Game {
         return this.columns[columnIndex].getTokenAt(rowIndex);
     }
     playInColumn(columnIndex) {
-        this.columns[columnIndex].add(game.playerTracker);
-
+        console.log('1', columnIndex );
+        this.columns[columnIndex].add(this.playerTracker);
         if (this.playerTracker === 1){
             this.playerTracker = 2;
         } else {
