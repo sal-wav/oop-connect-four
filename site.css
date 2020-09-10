@@ -108,7 +108,7 @@ button {
     background-color: red;
 }
 
-/* .black .click-target:hover {
+.black .click-target:hover {
     background-color: black;
 }
 
@@ -120,6 +120,6 @@ button {
 .full.click-target:hover {
     background-color: white;
     cursor: no-drop;
-} */
+}
 
 /* test  a */
